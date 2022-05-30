@@ -132,7 +132,7 @@ int main()
     Pinguino pinguinito("Pablo");
     aguilita.vuela();
     avestrucito.vuela();
-    pinguinito.vuela();
+    pinguinito.vuela(); 
     pinguinito.nada();
     return 0;
 }
