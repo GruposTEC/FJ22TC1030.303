@@ -1,11 +1,14 @@
 #include "Punto.h"
 #include <iostream>
+#include <algorithm>
 
 using std::cout;
 using std::endl;
 
 int main()
 {
+
+    cout << std::__gcd(3,6) << endl;
     Punto p1(1,1);
     Punto p2(5,6);
     //Pasa por Referencia
