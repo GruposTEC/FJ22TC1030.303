@@ -17,7 +17,7 @@ void Impresora::imprimir(string _nombre){
     if (numHojas<numHojasUsadas){
         //throw(911);
         //throw("NOS FALTAN HOJAS");
-        //string julian="esto sí es un string";
+        //st    ring julian="esto sí es un string";
         //throw(julian);
         MiExcepcion Ex;
         throw(Ex); //El throw va en donde se general el error

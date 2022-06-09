@@ -15,17 +15,18 @@ Casilla::Casilla()
 char Casilla::getSimbolo()
 {
     return simbolo;
-}i
+}
+
 int Casilla::getPosicion()
 {
     return posicion;
 }
-void Casilla::setSimbolo(char simbolo)
+void Casilla::setSimbolo(char sim)
 {
     simbolo = sim;
 }
 
-void Casilla::setPosicion(int posision)
+void Casilla::setPosicion(int pos)
 {
     posicion = pos;
 }
@@ -34,11 +35,11 @@ bool Casilla::ocupada()
 {
     if(simbolo =! ' ')
     {
-        return True;
+        return true;
     }
 
     else
     {
-        return False;
+        return false;
     }
 }

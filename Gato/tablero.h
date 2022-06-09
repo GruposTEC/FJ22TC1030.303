@@ -2,6 +2,8 @@
 #define TABLERO_H
 #include "casilla.h"
 #include <iostream>
+#include <fstream>
+
 
 
 class Tablero {
@@ -11,9 +13,9 @@ class Tablero {
     public:
         Tablero();
 
-        bool lleno();
+      /*  bool lleno();
         bool ganado();
         void reset();
-        void setCasillas(char sim, int pos);
+        void setCasillas(char sim, int pos);*/
 };
 #endif

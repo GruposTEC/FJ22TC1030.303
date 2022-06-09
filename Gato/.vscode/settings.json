@@ -2,7 +2,9 @@
     "editor.fontSize": 10,
     "files.associations": {
         "ostream": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp"
     }
 }
        
